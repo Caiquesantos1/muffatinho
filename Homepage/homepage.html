@@ -71,10 +71,16 @@
         <div class="btn-group me-2">
           <button type="button" class="btn btn-sm btn-outline-danger">Gerar relatório</button>
         </div>
-        <button type="button" class="btn btn-sm btn-outline-danger dropdown-toggle">
-          <span data-feather="calendar" class="align-text-bottom"></span>
-          Essa semana
-        </button>
+        <div class="dropdown">
+          <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <span data-feather="calendar" class="align-text-bottom"></span>
+            Semana
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Mês</a></li>
+            <li><a class="dropdown-item" href="#">Ano</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -611,7 +617,7 @@
       </section>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Augusto Belussi, Caique Santois, Eduardo augusto, Leonardo Pittner, Raphael Correa</a>
+      <a class="text-white" href="https://mdbootstrap.com/">Augusto Belussi, Caique Santos, Eduardo Augusto, Leonardo Pittner, Raphael Correa</a>
     </div>
   </footer>
 
